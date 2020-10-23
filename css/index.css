@@ -4,16 +4,29 @@
 
 
 
+.container{
+    width: 100vh;
+    font-family: 'Grenze Gotisch', cursive;
+
+
+background-image: url(/halloween/img/desktop/fondo.svg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+
+
+}
+
 .header{
-    grid-column: 2/3;
+
     display: grid;
     grid-template-columns: 400px 800px 460px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
 
-    background-image: url(/halloween/img/desktop/fondo.svg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+
+
 }
 
 .header__img1{
@@ -29,3 +42,74 @@
     grid-column: 3/3;
     
 }
+
+.main{
+    display: grid;
+    grid-template-columns: 400px 800px 460px;
+    grid-template-rows: 1fr ;
+
+    color: #c5c5c5;
+
+ 
+}
+
+.main__texto{
+    font-size: 10rem;
+    grid-column: 2/2;
+
+
+    margin: 0%;
+    text-align: center;
+    color: #cf7520;
+    
+}
+
+.main_parrafo1{
+    margin: 0%;
+    grid-column: 1/1;
+    text-align: center;
+
+}
+
+.main__parrafo2{
+
+    margin: 0%;
+    grid-column: 3/3;
+    text-align: center;
+
+
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 400px 800px 460px;
+    grid-template-rows: 1fr 1fr;
+    
+    background-image: url(/halloween/img/desktop/fondo.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: #c5c5c5;
+
+}
+
+.footer__parrafo1{
+    margin: 0%;
+    grid-column: 1/1;
+    text-align: center;
+
+}
+
+.footer__img{
+    grid-column: 2/2;
+
+}
+
+.footer__parrafo2{
+    margin: 0%;
+    text-align: center;
+    grid-column: 3/3;
+    grid-row: 1/1;
+}
+
