@@ -58,23 +58,28 @@ width: 100%;
     grid-column: 2/2;
 
 
+    padding: 20px;
     margin: 0%;
     text-align: center;
+    align-self: center;
+
     color: #cf7520;
     
 }
 
-.main_parrafo1{
-    margin: 0%;
+.main__parrafo1{
+    padding: 20px;
     grid-column: 1/1;
+    align-self: center;
     text-align: center;
 
 }
 
 .main__parrafo2{
+    padding: 20px;
 
-    margin: 0%;
-    grid-column: 3/3;
+    grid-column: 3/3;  
+    align-self: center;
     text-align: center;
 
 
@@ -95,9 +100,13 @@ width: 100%;
 }
 
 .footer__parrafo1{
+    padding: 20px;
+
     margin: 0%;
     grid-column: 1/1;
     text-align: center;
+    align-self: center;
+
 
 }
 
@@ -107,7 +116,10 @@ width: 100%;
 }
 
 .footer__parrafo2{
+    padding: 20px;
+
     margin: 0%;
+    align-self: center;
     text-align: center;
     grid-column: 3/3;
     grid-row: 1/1;
